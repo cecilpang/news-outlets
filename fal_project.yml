@@ -1,0 +1,5 @@
+environments:
+  - name: preprocessing
+    type: venv
+    requirements:
+      - pandas

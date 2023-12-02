@@ -1,0 +1,24 @@
+name: news-sentiment
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.11
+  - networkx
+  - python-igraph
+  - seaborn
+  - pandas
+  - google-cloud-bigquery
+  - google-cloud-storage
+  - pytorch::pytorch
+  - pytorch::torchaudio
+  - pytorch::torchvision
+  - python-igraph
+  - graph-tool
+  - scikit-learn
+  - numpy
+  - scipy
+  - notebook
+  - pip:
+    - dbt-fal[bigquery]
+    - dbt-bigquery

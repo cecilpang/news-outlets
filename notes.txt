@@ -1,0 +1,6 @@
+data processing
+
+1. data processing in BigQuery and use dbt to manage repeatable pipeline:
+    - data set get is in bigquery
+    - step 1: get a range of data: all Nov 2023 data
+    - step 2: filtering: only data with known entities, i.e. with mid. Flatten data so that it can be loaded into dafaframe
