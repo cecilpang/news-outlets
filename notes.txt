@@ -4,3 +4,8 @@ data processing
     - data set get is in bigquery
     - step 1: get a range of data: all Nov 2023 data
     - step 2: filtering: only data with known entities, i.e. with mid. Flatten data so that it can be loaded into dafaframe
+
+2. grep 3 months of data from gdelt and save it in a bigquery table.
+3. Read from the above table and create local csv file for development:
+    - one month of data is 14 GB - too big for my laptop
+    - one week of data is about 3 GB - just right for development
