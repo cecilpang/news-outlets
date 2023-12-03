@@ -1,4 +1,4 @@
-news_outlet_embeddings:
+news_outlets:
   target: dev_fal
   outputs:
     dev_fal:
