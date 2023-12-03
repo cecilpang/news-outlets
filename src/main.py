@@ -9,7 +9,7 @@ def main():
     # create CLI args as a list of strings
     # e.g. cli_args = ["run", "--select", "tag:my_tag"]
     run_args = {'from_date': '2023-09-01', 'to_date': '2023-11-30'}
-    cli_args = ["run", "--select", "geg_with_mid", "--vars", json.dumps(run_args)]
+    cli_args = ["run", "--select", "testing", "--vars", json.dumps(run_args)]
 
     # run the command
     res: dbtRunnerResult = dbt.invoke(cli_args)

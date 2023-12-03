@@ -1,4 +1,4 @@
-news_outlets:
+news-outlets:
   target: dev_fal
   outputs:
     dev_fal:
@@ -12,5 +12,5 @@ news_outlets:
       method: oauth
       priority: interactive
       project: gannett-datarevenue
-      threads: 3
+      threads: 4
       type: bigquery
