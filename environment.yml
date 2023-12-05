@@ -1,28 +1,24 @@
 name: news-outlets
 channels:
   - conda-forge
-  - pytorch
-  - pyg
 dependencies:
   - python=3.11
   - networkx
   - python-igraph
   - seaborn
   - pandas
-  - pytorch::pytorch
-  - pytorch::torchaudio
-  - pytorch::torchvision
-  - pyg
   - python-igraph
   - graph-tool
   - scikit-learn
   - numpy
   - scipy
-  - notebook
   - pip
   - pip:
-    - google-cloud-bigquery
-    - google-cloud-storage
-    - dbt-fal[bigquery]
-    - dbt-bigquery
+      - -r requirements.txt
+  
+
+
+
+
+
 
