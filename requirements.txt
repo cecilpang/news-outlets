@@ -10,3 +10,4 @@ google-cloud-bigquery
 google-cloud-storage
 dbt-fal[bigquery]
 dbt-bigquery
+umap-learn
