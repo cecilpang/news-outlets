@@ -3,21 +3,9 @@ channels:
   - conda-forge
 dependencies:
   - python=3.11
-  - networkx
-  - python-igraph
-  - seaborn
-  - pandas
-  - python-igraph
-  - graph-tool
-  - scikit-learn
-  - numpy
-  - scipy
   - pip
   - pip:
-      - -r requirements.txt
-  
-
-
+      - -r pip_requirements.txt
 
 
 

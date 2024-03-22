@@ -10,7 +10,7 @@ def main():
     # e.g. cli_args = ["run", "--select", "tag:my_tag"]
     run_args = {}
     #cli_args = ["run", "--select", "geg_week_10_21", "--vars", json.dumps(run_args)]
-    cli_args = ["run", "--select", "edge_index_article_to_entity", "--vars", json.dumps(run_args)]
+    cli_args = ["run", "--models", "+edge_index_article_to_entity", "--vars", json.dumps(run_args)]
 
     # run the command
     res: dbtRunnerResult = dbt.invoke(cli_args)
