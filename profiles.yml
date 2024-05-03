@@ -5,12 +5,12 @@ news-outlets:
       type: fal
       db_profile: dev_bq
     dev_bq:
-      dataset: zz_test_pang
+      project: gannett-enterprise-data-dev
+      dataset: dbt_cecil
       job_execution_timeout_seconds: 300
       job_retries: 1
       location: US
       method: oauth
       priority: interactive
-      project: gannett-datarevenue
       threads: 4
       type: bigquery

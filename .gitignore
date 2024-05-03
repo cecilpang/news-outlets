@@ -9,3 +9,4 @@ venv/
 .user.yml
 notebooks/.ipynb_checkpoints/
 data/
+**/.ipynb_checkpoints/
